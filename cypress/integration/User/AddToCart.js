@@ -14,7 +14,7 @@ describe('User Management', () => {
              // When: User logs in with  vlaid credentials
              cy.contains('Login').click();
              cy.get('[id="normal_login_username"]').type('loganieee07@gmail.com');
-             cy.get('[id="normal_login_password"]').type('Test@123');
+             cy.get('[id="normal_login_password"]').type('Test@1234');
              cy.get('.register-btn').click();
 
              // Then: User Login should be successful 
